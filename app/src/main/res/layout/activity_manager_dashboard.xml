@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoBuy Helper - Руководитель"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Руководитель\nПанель управления"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"
+        android:padding="16dp"
+        android:background="@drawable/edittext_background" />
+
+    <Button
+        android:id="@+id/btnStaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Персонал"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отчеты"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnCars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Автомобили"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnExport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Экспорт в Excel"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выйти"
+        android:textSize="16sp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white" />
+
+</LinearLayout>
